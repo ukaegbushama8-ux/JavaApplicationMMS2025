@@ -1,0 +1,62 @@
+The 57 Java Keywords We Have
+Abstract: Declares a close or method that cannot be instantiated directly / has no body (must be overridden)
+Assert: Used for debugging - checks if a condition is true; throws Assertion Error if false
+Boolean: Primitive type that can only hold true or false
+Break: Exists the nearest loop (for, while, do) or switch block
+Byte: Primitive type – 8- bit integer (-128 to 127)
+Case: Label in switch statement for a specific value
+Catch: Catches and handles an exception thrown in a try block 
+Char: Primitive type – single 16-bit Unicode character
+Class: Declares a class (blueprint for objects) 
+Const: Reserved (unused in Java – was planned but never implemented)
+Continue: Skips the rest of the current loop iteration and goes to the next one
+Default: 1) Default label in switch
+	      2) Default method in interface (since Java 8)
+Do: Starts a do-while loop (executes at least once)
+Double: Primitive type – 64-bit floating-point number with decimal points 
+Else: Executes code when the if condition is false
+Enum: Declares an enumerated type (fixed set of constants)
+Extends: 1) Class inherits from another class
+	       2) Interface inherits from another interface
+Final: 1) Variable –constant
+	   2) Method –cannot be overridden
+	   3) Class –cannot be extended
+Finally: Block that always executes after try-catch (clean-up code)
+Float: Primitive type - 32-bit floating-point number with decimal points
+For:  Creates a for-loop (usually with counter)
+Goto: Reserved (unused in Java – considered harmful)
+If: Executes code only if a condition is true
+Implements: Class promises to provide all methods of an interface
+Import: Brings classes from other packages into current file
+Instance of: Checks if an objects is an instance of a class/interface
+Int: Primitive type – 32-bit integer
+Interface: Declares a contract (methods a class must implement)
+Long: Primitive type – 64-bit integer
+Native: method is implemented in another language (usually C/C++)
+New: Creates a new object/ array 
+Package: Groups related classes (like a folder/namespace)
+Private: Member accessible only within the same class
+Protected: Member accessible within same package + subclasses (even in other packages)
+Public: Member accessible from everywhere 
+Return: Exists a method and optionally returns a value 
+Short: Primitive type- 16-bit integer
+Static: Member belongs to the class (not to objects) – shared by all instances
+Strictfp: Ensures floating-point calculations are consistent across platforms (rarely used)
+Super: 1) Calls superclass constructor/method
+	   2) Refers to superclass member 
+Switch: Selects one of many code blocks based on a value (expression)
+Synchronized: Ensures only one thread can access a block/method at a time (thread safety)
+This: Refers to the current object instance
+Throw: Manually throws an exception
+Throws: Declares that a method can throw certain checked exceptions
+Transient: Field should not be serialized (saved) when object is serialized
+Try: Starts a block where exceptions might occur 
+Void: Method returns no value 
+Volatile: Variable may change unexpectedly (prevents compiler/CPU from reordering/optimizing access)
+While: Repeats a block of code while a condition is true
+Var: Local variable type inference (compiler guesses the type) – Java 10+ 
+Record: Declares a simple immutable data class (auto-generates constructor, getters, equals, etc.) – Java 16+
+Sealed: Restricts which classes/interfaces can extend/ implement this type – Java 17+
+Non_sealed: Allows a subclass of a sealed class to be extended further – Java 17+
+Permits: Lists the only classes allowed to extend/implement a sealed type - Java 17+ 
+Yield: Returns a value from a switch expression (not a statement) – Java 14
